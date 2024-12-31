@@ -27,4 +27,4 @@ pre-commit:
 post-merge:
   commands:
     js-install-deps:
-      run: npm install
+      run: pnpm install
